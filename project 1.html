@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Imoniyi Al-amin - Graphic Designer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: #f6f6f6;
+            color: #222;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.2rem;
+            color: #bbb;
+        }
+        nav {
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: #222;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #e67e22;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .portfolio-item {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            overflow: hidden;
+            transition: box-shadow 0.2s;
+        }
+        .portfolio-item:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+        }
+        .portfolio-item img {
+            width: 100%;
+            display: block;
+            height: 180px;
+            object-fit: cover;
+        }
+        .portfolio-item .desc {
+            padding: 1rem;
+        }
+        .about, .contact {
+            background: #fff;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-top: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .contact input, .contact textarea {
+            padding: 0.7rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        .contact button {
+            background: #e67e22;
+            color: #fff;
+            border: none;
+            padding: 0.8rem;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .contact button:hover {
+            background: #cf711f;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: #888;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Imoniyi Al-amin</h1>
+        <p>Graphic Designer & Web Designer </p>
+    </header>
+    <nav>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img src="https://tint.creativemarket.com/uOct_0_FL6cqtOtcR47MGy1zRj0aI9S8Me9SnPx6-pE/width:1200/height:800/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzExMDUvMTEwNTQvMTEwNTQ3MjcvcHJldmlldy1jaHJpc3RtYXMtY2FyZC0wMS1vLmpwZw?1632830310" alt="Project 1">
+                    <div class="desc">
+                        <h3>Card Design</h3>
+                        
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://tint.creativemarket.com/BYYhywQs_Ru5O_fqd3tNGdTR4ebm2IYh17jU4mZFuY0/width:1200/height:800/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzIyNzUvMjI3NTIvMjI3NTI0OTQvbXVzaWMtZmVzdGl2YWwtcG9zdGVyLXRlbXBsYXRlLTAyLW8uanBnIzE3NTI1MDkwMzQ?1752509034" alt="Project 2">
+                    <div class="desc">
+                        <h3>Poster Design</h3>
+                        
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://tint.creativemarket.com/5b8X646AcshT_r5TJsma_5m0TxpPq-uzK2-GT9tStOk/width:1200/height:800/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzQ4NC80ODQxLzQ4NDExNDQvMDVfc2NyZWVuc2hvdC1vLmpwZw?1541122928" alt="Project 3">
+                    <div class="desc">
+                        <h3>Business Card Design</h3>
+                        
+                    </div>
+                </div>
+                 <div class="portfolio-item">
+                    <img src="https://tint.creativemarket.com/43dG2haIQEyoxEb8CLCGi1svC5bv6vYjqrqKuOYm_e4/width:1200/height:800/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzE1ODcvMTU4NzkvMTU4NzkxNjYvZ3JlZW5fY2hyaXN0XzEtby5qcGc?1664920592" alt="Project 2">
+                    <div class="desc">
+                        <h3>Stationery Design</h3>
+                        
+                    </div>
+                </div>
+                 <div class="portfolio-item">
+                    <img src="https://tint.creativemarket.com/ORF92mRDTixznmQ_zqkRmoyq83C_Fsvp2dkHiCzC3rw/width:1200/height:800/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzYxMS82MTE5LzYxMTkwNzAvYmxhY2tib2FyZC1tZW51LXRlbXBsYXRlLTAtby5qcGc?1553410091" alt="Project 2">
+                    <div class="desc">
+                        <h3>Menu Design</h3>
+                     
+                    </div>
+                </div>
+                 <div class="portfolio-item">
+                    <img src="https://tint.creativemarket.com/doyN8FUcTzFmGm_xuBE3hS4B3nRTACLqlk_tb8jh1Cw/width:1200/height:800/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzIyODIvMjI4MjYvMjI4MjYyODMvcmV0cm9fZ2FtaW5nX2ZseWVyX2FyY2FkZV9zdGlja19maWdodF92aWRlb19nYW1lc190ZW1wbGF0ZV9wb3N0ZXItby5qcGc?1685116062" alt="Project 2">
+                    <div class="desc">
+                        <h3>Flyer Design</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Imoniyi Al-amin, a passionate graphic designer based in Lagos, Nigeria.creative and detail-oriented graphic designer with a passion for turning ideas into visually stunning designs.
+                 I am skilled in blending artistic vision with modern design tools, i specializes in creating impactful branding, eye-catching marketing materials, and engaging digital content. With a strong sense of color,
+                  typography, and composition. Whether working on logos, posters, social media graphics, or full brand identities, I approaches every project with innovation, precision, and a drive to exceed client expectations. I specialize in branding, illustration, and digital design. I am also known for my keen eye for detail, a love for bold creativity, and the ability to adapt designs to different audiences,
+                   I am committed to delivering work that not only looks great but also tells a story.
+                    visually and creatively. 
+            </p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Imoniyi Al-amin. All rights reserved.
+    </footer>
+</body>
+</html>
